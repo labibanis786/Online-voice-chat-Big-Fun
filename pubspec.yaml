@@ -1,0 +1,29 @@
+name: big_fan_voice_chat
+description: Full-featured Big Fan Voice Chat with Agora, Phone OTP, Rooms and Gifting (skeleton)
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  agora_rtc_engine: ^6.1.1
+  firebase_core: ^2.10.0
+  firebase_auth: ^4.6.3
+  cloud_firestore: ^4.7.1
+  provider: ^6.0.5
+  uuid: ^3.0.7
+  flutter_launcher_icons: ^0.13.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/logo.png
